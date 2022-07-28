@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
 
         when (error) {
             HttpError.notFound -> Unit
-            HttpError.unAuthorized -> Unit
+        //    HttpError.UnAuthorized -> Unit
         }
 
         val errorEnum:HttpErrorEnum = HttpErrorEnum.notFound
@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 
         when (errorEnum) {
             HttpErrorEnum.notFound-> TODO()
-            HttpErrorEnum.unAuthorized -> TODO()
+           // HttpErrorEnum.unAuthorized -> TODO()
         }
 
 
